@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Screen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black min-h-screen flex  mt-[40px] justify-center text-white">
+<!-- Main Container -->
+<div class="text-center space-y-6 max-w-md">
+
+    <!-- Logo and Back Arrow -->
+    <div class="flex justify-between items-center px-4">
+        <button class="text-gray-400 text-2xl">&larr;</button>
+        <h1 class="text-2xl font-bold tracking-wider mb-[60px]"><img src="./images/navbar%20img.svg" alt=""></h1>
+
+        <span></span>
+    </div>
+
+    <!-- Divider Line -->
+    <div class="h-1 w-1/2 bg-pink-600 mx-auto rounded-full"></div>
+
+    <!-- Welcome Text -->
+    <div class="px-4">
+        <p class="text-xl font-semibold">Welcome to our exclusive community!<br>We look forward to having you with us.</p>
+    </div>
+
+    <!-- Icon and Decorative Elements -->
+    <div class="relative mt-6">
+        <!-- Green Checkmark Icon -->
+        <div class="flex items-center justify-center">
+            <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center">
+                <svg class="w-20 h-20 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-10.707a1 1 0 00-1.414-1.414L9 10.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+            </div>
+        </div>
+        <!-- Decorative Dots -->
+        <div class="absolute inset-0 flex items-center justify-center space-x-2 text-gray-400">
+            <span class="text-pink-600 text-xl">•</span>
+            <span class="text-pink-600 text-sm">•</span>
+            <span class="text-gray-500 text-lg">•</span>
+            <span class="text-pink-600 text-sm">•</span>
+            <span class="text-gray-500 text-xs">•</span>
+            <span class="text-pink-600 text-sm">•</span>
+        </div>
+    </div>
+
+    <!-- Button to Community -->
+    <div>
+        <a href="#" class="px-[50px] bg-pink-600 text-white py-2 rounded-lg font-semibold hover:bg-pink-700 transition">Go to the community</a>
+    </div>
+
+    <!-- Secondary Link -->
+    <div>
+        <a href="fill_profile1.html" class="text-gray-400 hover:underline">Fill out profile</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-2 {
+        fill: white;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_125" data-name="Rechteck 125" width="16.07" height="16.071" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_1156" data-name="Gruppe 1156" transform="translate(-8704 -14842)">
+    <circle id="Ellipse_237" data-name="Ellipse 237" class="cls-2" cx="11.5" cy="11.5" r="11.5" transform="translate(8704 14842)"/>
+    <g id="o" transform="translate(8707.465 14845.457)">
+      <g id="Gruppe_231" data-name="Gruppe 231" class="cls-3" transform="translate(0 0.004)">
+        <path id="Pfad_139" data-name="Pfad 139" class="cls-1" d="M34.179,21.187a1.458,1.458,0,0,0-1.057-.428,1.436,1.436,0,0,0-1.039.428,1.474,1.474,0,0,0,0,2.1,1.436,1.436,0,0,0,1.039.428,1.457,1.457,0,0,0,1.057-.428,1.474,1.474,0,0,0,0-2.1m1.731-9.632a4.12,4.12,0,0,0-2.752-.893,4.061,4.061,0,0,0-2.679.875,3.648,3.648,0,0,0-1.239,2.989h2.242a1.474,1.474,0,0,1,1.677-1.659,1.728,1.728,0,0,1,1.157.365,1.227,1.227,0,0,1,.428.984.939.939,0,0,1-.31.711,5.284,5.284,0,0,1-.674.437,4.556,4.556,0,0,0-1.166.893,2.99,2.99,0,0,0-.565,1.914q0,.438.164,1.8H34.07l.128-1.768a1.16,1.16,0,0,1,.273-.7,3.551,3.551,0,0,1,.838-.611,3.017,3.017,0,0,0,1.713-2.679,3.342,3.342,0,0,0-1.112-2.661" transform="translate(-25.096 -9.151)"/>
+      </g>
+    </g>
+  </g>
+</svg>

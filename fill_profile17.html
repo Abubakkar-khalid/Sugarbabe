@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Question</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black flex  justify-center min-h-screen">
+<div class="w-full max-w-md p-4">
+    <!-- Progress Bar -->
+    <div class="flex items-center justify-between px-4">
+        <button class="text-gray-400 text-2xl">&larr;</button>
+        <div class="flex-grow mx-4">
+            <div class="h-1 w-full bg-gray-600 rounded-full">
+                <div class="h-full w-[100%] bg-pink-600 rounded-full"></div>
+            </div>
+        </div>
+        <span></span>
+    </div>
+
+    <!-- Section Title -->
+    <div>
+        <h2 class="text-sm text-gray-400 item-center justify-center flex">About You</h2>
+    </div>
+
+    <!-- Title -->
+    <h2 class="text-white text-center text-lg font-semibold mb-2">Some questions you may want to answer</h2>
+
+    <!-- Dropdown Select -->
+    <div class="mb-6">
+        <select class="w-full bg-gray-800 text-white rounded-md p-3">
+            <option>Select a question</option>
+            <option>What are your hobbies?</option>
+            <option>What's your favorite book?</option>
+            <option>Where do you want to travel?</option>
+            <!-- Add more options as needed -->
+        </select>
+    </div>
+
+    <!-- Next Button -->
+    <div>
+        <a href="fill_profile17.html" class=" flex justify-center item-center inline-block bg-pink-600 text-white py-2 rounded-lg font-semibold hover:bg-pink-700 transition">Next</a>
+    </div>
+    <!-- Skip Link -->
+    <a href="community.html" class="inline-block text-[14px] flex justify-center text-gray-400 hover:underline py-[20px]">Enter The Community</a>
+</div>
+</body>
+</html>

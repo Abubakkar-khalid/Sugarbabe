@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black flex  justify-center min-h-screen text-white">
+
+<div class="w-full max-w-md text-center p-6 space-y-6">
+    <!-- Logo -->
+    <h1 class="text-2xl font-bold tracking-wider mb-[60px]"><img src="./images/navbar%20img.svg" alt=""></h1>
+
+    <!-- Progress Bar -->
+    <div class="h-2 w-full bg-gray-800 rounded-full">
+        <div class="bg-pink-500 h-2 rounded-full" style="width: 50%;"></div>
+    </div>
+
+    <!-- Heading -->
+    <h2 class="text-lg font-medium">About you</h2>
+    <h1 class="text-2xl font-bold">What do you want to be called?</h1>
+
+    <!-- Input Field -->
+    <div class="relative">
+        <input type="text" placeholder="fakemail" class="w-full p-3 bg-black border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-pink-500" />
+        <!-- Checkmark Icon -->
+        <span class="absolute right-3 top-1/2 transform -translate-y-1/2 text-green-500">
+                &#10004;
+            </span>
+    </div>
+
+    <!-- Helper Text -->
+    <p class="text-sm pb-[40px] text-gray-400">This is how you are displayed in our community</p>
+
+    <!-- Next Button -->
+    <a href="part3.html" class="w-full bg-pink-500 py-3  px-[180px] rounded-full text-white font-semibold hover:bg-pink-600 transition">Next</a>
+</div>
+
+</body>
+</html>

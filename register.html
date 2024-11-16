@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <header>
+        <nav class=" flex items-center justify-between flex-wrap lg:px-6 w-full ">
+            <div class="w-[30%] flex items-center flex-shrink-0 text-white   p-[20px]">
+                <img src="./images/navbar%20img.svg" alt="navbar img" class="pl-[25px]">
+            </div>
+            <div class="relative inline-block text-left border border-[white] px-[10px] py-[5px] rounded-[4px] ">
+                <!-- Dropdown Trigger with Icon -->
+                <button onclick="toggleDropdown()" class="text-white no-underline hover:no-underline text-xl focus:outline-none flex items-center">
+                   English
+                    <svg class="ml-2 w-4 h-4 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                    </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <div id="dropdownMenu" class="absolute hidden bg-white text-black mt-2 rounded-md shadow-lg py-2">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">English</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">German</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">French</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Spanish</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Italian</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<div class=" flex justify-center py-[20px]">
+    <h1 class="text-white font-bold text-[30px]">Register Now For Free</h1>
+</div>
+
+
+    <div class="bg-black min-h-screen flex items-center justify-center text-white px-6 ">
+        <form class="w-full max-w-md space-y-6">
+            <div class="w-[100%]">
+                <p class="text-lg mb-2">I am ...</p>
+                <div class="flex space-x-4">
+                    <label class="flex items-center space-x-2 border border-gray-500 rounded-[7px] w-[50%] justify-center py-[10px]">
+                        <input type="radio" name="gender" class="form-radio  rounded-[5px] text-pink-600">
+                        <span class="text-[19px]">male</span>
+                    </label>
+                    <label class="flex items-center space-x-2 border border-gray-500 w-[50%] rounded-[7px] justify-center py-[10px]">
+                        <input type="radio" name="gender" class="form-radio  text-pink-600">
+                        <span class="text-[19px]">female</span>
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-lg mb-2">I search ...</p>
+                <select class="w-full px-4 py-2 bg-black border border-gray-500 rounded-[7px] text-gray-400">
+                    <option value="">Please Select</option>
+                    <option value="">Sugar Baby</option>
+                    <option value="">Sugar Mommy</option>
+                    <option value="">Sugar Daddy</option>
+                    <option value="">Sugar Boy</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-sm mb-1">E-Mail</label>
+                <input type="email" placeholder="yourname@example.com" class="w-full px-4 py-2 bg-black border border-gray-500 rounded-[7px] text-gray-400" />
+            </div>
+
+            <div>
+                <label class="block text-sm mb-1">Password</label>
+                <input type="password" placeholder="At least 6 characters required" class="w-full px-4 py-2 bg-black border border-gray-500 rounded-[7px] text-gray-400" />
+            </div>
+
+            <div class="flex space-x-4">
+                <div class="w-1/2">
+                    <label class="block text-sm mb-1">City</label>
+                    <input type="text" placeholder="City" class="w-full px-4 py-2 bg-black border border-gray-500 rounded-[7px] text-gray-400" />
+                </div>
+                <div class="w-1/2">
+                    <label class="block text-sm mb-1">Date of birth</label>
+                    <input type="date" placeholder="01-JAN-2006" class="w-full px-4 py-2 bg-black border border-gray-500 rounded-[7px] text-gray-400" />
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-sm mb-1">Promocode</label>
+                <input type="text" placeholder="Promocode" class="w-full px-4 py-2 bg-black border border-gray-500 rounded-[7px] text-gray-400" />
+            </div>
+
+            <div class="flex items-start space-x-2 pb-[30px]">
+                <input type="checkbox" class="form-checkbox text-pink-600">
+                <p class="text-xs text-gray-400">
+                    By registering, you agree to MySugardaddy’s
+                    <a href="#" class="text-blue-400">Privacy Policy</a> and <a href="#" class="text-blue-400">Terms of Use</a>
+                    and confirm that you are over 18 years of age. <br>
+                    This site is protected by reCAPTCHA and the Google <a href="#" class="text-blue-400">Privacy Policy</a> and <a href="#" class="text-blue-400">Terms of Service</a> apply.
+                </p>
+            </div>
+
+            <a href="part1.html" class="w-[100%] px-[200px] py-2 bg-pink-600 hover:bg-pink-700 rounded-[7px]  text-white">
+                Forward
+            </a>
+
+            <p class="text-center text-sm mt-4 pb-[50px]">
+                Are you already a member? <a href="part5.html" class="text-pink-600">Login</a>
+            </p>
+        </form>
+    </div>
+
+
+    <script>
+        function toggleDropdown() {
+            const dropdownMenu = document.getElementById('dropdownMenu');
+            dropdownMenu.classList.toggle('hidden');
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            const dropdownMenu = document.getElementById('dropdownMenu');
+            if (!event.target.closest('.inline-block')) {
+                dropdownMenu.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html>

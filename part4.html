@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black flex  justify-center min-h-screen text-white">
+
+<div class="w-full max-w-md text-center p-6 space-y-6">
+    <!-- Logo -->
+    <h1 class="text-2xl font-bold tracking-wider mb-[60px]"><img src="./images/navbar%20img.svg" alt=""></h1>
+
+    <!-- Progress Bar -->
+    <div class="h-2 w-full bg-gray-800 rounded-full">
+        <div class="bg-pink-500 h-2 rounded-full" style="width: 100%;"></div>
+    </div>
+
+    <!-- Header Text -->
+    <h2 class="text-2xl font-bold">Check your e-mail inbox</h2>
+
+    <!-- Email Icon with Notification Badge -->
+    <div class="relative w-24 h-24 mx-auto">
+        <div class="w-full h-full bg-gray-800 rounded-full flex items-center justify-center">
+            <!-- Envelope Icon -->
+            <svg class="w-12 h-12 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12.713L1.226 4.276A.998.998 0 011 3.5V4c0 .384.146.768.407 1.09l9.565 7.307 9.565-7.307A1.51 1.51 0 0023 4v-.5a.997.997 0 00-.226-.776L12 12.713z" /><path d="M11.994 14.176l-.002.001L2.29 6.35l-1.4 1.072a.998.998 0 00-.283 1.207l2.963 6.327C3.732 15.65 4.5 16.43 5.42 16.5H18.58c.92-.07 1.688-.85 1.85-1.944l2.963-6.326a.998.998 0 00-.283-1.207L11.994 14.176z" /></svg>
+        </div>
+        <!-- Notification Badge -->
+        <span class="absolute -top-1 -right-1 bg-pink-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold">1</span>
+    </div>
+
+    <!-- Info Text -->
+    <p class="text-sm text-gray-400">
+        We have just sent you an e-mail to <span class="text-gray-200">mail.0************@**ail.com</span>. Tap on the link to complete your registration.
+    </p>
+    <p class="text-sm text-gray-400">
+        You can change your email by clicking here: <a href="#" class="text-pink-500 underline">Change email</a>
+    </p>
+
+    <!-- Resend Button -->
+    <button class="w-full bg-pink-500 py-3 rounded-full text-white font-semibold hover:bg-pink-600 transition">Resend email</button>
+
+    <!-- Additional Info -->
+    <p class="text-xs text-gray-400">
+        If you cannot find the e-mail, please check your <span class="text-gray-200">spam folder</span>.
+    </p>
+</div>
+
+</body>
+</html>

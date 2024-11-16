@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.125" height="27.126" viewBox="0 0 27.125 27.126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_11" data-name="Rechteck 11" class="cls-1" width="27.125" height="27.126" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_768" data-name="Gruppe 768" transform="translate(1955.721 101.264)">
+    <g id="Gruppe_12" data-name="Gruppe 12" class="cls-2" transform="translate(-1955.721 -101.264)">
+      <path id="Pfad_10" data-name="Pfad 10" class="cls-1" d="M31.347,58.285h-2.73a4.984,4.984,0,0,0-4,2.017c-1.456,2.109-2.549,8.709-2.549,8.709a1.458,1.458,0,0,0,1.685,1.7H36.715s1.911.046,1.911-1.7c0,0-.9-6.4-2.627-8.6-1.457-2.475-4.652-2.122-4.652-2.122" transform="translate(-16.776 -44.329)"/>
+    </g>
+    <g id="Gruppe_13" data-name="Gruppe 13" class="cls-2" transform="translate(-1955.721 -101.264)">
+      <path id="Pfad_11" data-name="Pfad 11" class="cls-1" d="M43.094,8.838a5.671,5.671,0,1,0-5.671,5.714,5.692,5.692,0,0,0,5.671-5.714" transform="translate(-24.157 -2.378)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sugarba.be</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+<header class="relative">
+    <!-- Background Video -->
+    <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover z-0">
+        <source src="./main%20video/mysugardaddy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Navigation Bar -->
+    <nav class="relative z-10 bg-black lg:bg-transparent flex items-center md:justify-between flex-wrap lg:px-6 w-full ">
+        <div class="w-[30%] flex items-center flex-shrink-0 text-white lg:ml-[120px] bg-black p-[20px]">
+            <img src="./images/navbar%20img.svg" alt="navbar img" class="pl-[25px]">
+        </div>
+        <div class="flex items-center flex-shrink-0 text-white space-x-6  mr-[40px]">
+            <a class="text-white no-underline hover:no-underline text-xl " href="#">HOW IT WORKS</a>
+            <a class="text-white no-underline hover:no-underline text-xl border border-[white] px-[10px] py-[5px]" href="part5.html">LOGIN</a>
+
+            <!-- Language Dropdown -->
+            <div class="relative inline-block text-left border border-[white] px-[10px] py-[5px] rounded-[4px] ">
+                <!-- Dropdown Trigger with Icon -->
+                <button onclick="toggleDropdown()" class="text-white no-underline hover:no-underline text-xl focus:outline-none flex items-center">
+                    Language
+                    <svg class="ml-2 w-4 h-4 fill-current text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+                    </svg>
+                </button>
+                <!-- Dropdown Menu -->
+                <div id="dropdownMenu" class="absolute hidden bg-white text-black mt-2 rounded-md shadow-lg py-2">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">English</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">German</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">French</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Spanish</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-200">Italian</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Heading -->
+    <div class="relative z-10 flex items-center justify-between flex-wrap lg:px-[170px] md:px-[250px] lg:w-[60%] lg:pt-[110px] md:pt-[70px] lg:pb-[50px]">
+        <p class="text-white text-[50px]">I UPGRADE YOUR <span class="pl-[30px]">LIFESTYLE</span></p>
+    </div>
+
+    <!-- Radio Button Section -->
+    <div class="md:pb-[80px] lg:pb-[0px]">
+    <div class="relative z-10 bg-black bg-opacity-60 text-center py-[10px] px-[10px] lg:w-[30%]  md:w-[50%] lg:ml-[130px] md:ml-[250px]">
+        <p class="text-white text-xl">I am a ...</p>
+        <div class="flex items-center justify-center space-x-4 pt-4">
+            <label class="flex items-center space-x-2 bg-white px-7 py-3 ">
+                <input type="radio" name="role" class="form-radio">
+                <span class="text-black text-[13px]">SUGAR DADDY</span>
+            </label>
+            <label class="flex items-center space-x-2 bg-white px-10 py-3 ">
+                <input type="radio" name="role" class="form-radio">
+                <span class="text-black text-[13px]">SUGAR BABE</span>
+            </label>
+        </div>
+        <div class="py-[20px]  ">
+            <a href="register.html" class="border border-black py-[11px] px-[87px] bg-[#C82151] w-[100%]">REGISTER NOW FOR FREE</a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- images section -->
+    <div class="flex items-center  justify-between lg:ml-[130px] lg:flex hidden  pb-[25px] ">
+        <div class="flex items-center space-x-12  z-10">
+            <img src="./images/amazon.svg" alt="amazon" class="w-[100px] h-[50px]">
+            <img src="./images/ssl-trust.svg" alt="ssl-trust" class="w-[100px] h-[50px] ">
+            <img src="./images/256bit.svg" alt="256bit" class="w-[100px] h-[50px] ">
+        </div>
+        <div class="flex ml-[370px] space-x-1  z-10">
+            <img src="./images/playstore_en.svg" alt="playstore_en" class="w-[160px] h-[50px]">
+            <img src="./images/apple-store_en.svg" alt="apple" class="w-[160px] h-[50px] ">
+        </div>
+        <div>
+
+        </div>
+    </div>
+</header>
+
+
+<section class="bg-black ">
+    <div class=" lg:mx-[130px] md:mx-[30px] px-2 py-4 flex  flex-wrap lg:items-center justify-between">
+        <img src="./images/logo-save-a-heart-1.svg" alt="heart logo">
+        <img src="./images/mailonline-vector-logo.svg" alt="mailone logo">
+        <img src="./images/perfect-is-logo.svg" alt="perfect is logo">
+        <img src="./images/glamour-logo.svg" alt="glamour logo" class="w-[180px] h-[100px]">
+    </div>
+</section>
+
+
+<section class="bg-black ">
+    <div class=" lg:mx-[130px] md:mx-[30px] px-2 py-4  items-center">
+        <h2 class="text-white text-[27px] mb-[30px]">ABOUT US</h2>
+        <hr class="border-t-2 border-white opacity-50 w-full mx-auto mb-4" />
+        <p class="text-white text-[23px]">My Sugar Daddy gives men and women worldwide the exceptional freedom to discover and live out the life they
+            choose. We are a community that stands for a refined lifestyle that offers access to unique experiences and
+            the life they have dreamt of. Sugar daddies and sugar babies are given what they deserve, a place to build
+            independent relationships the way they dreamt. As Eleanor Roosevelt famously said, "The future belongs to those
+            who believe in the beauty of their dreams."</p>
+    </div>
+</section>
+
+<section class="bg-black pt-[80px] pb-[40px]">
+    <div >
+        <div class=" flex  lg:mx-[130px] md:mx-[30px] px-2 py-4 items-center bg-white mb-[10px]">
+            <div class="flex items-center space-x-12  z-10 pl-[20px]">
+                <img src="./images/my_sugar_daddy_john_l.jpg" alt="">
+            </div>
+            <div class=" items-center  z-10">
+                <p class="black text-[26px] px-[90px]">|
+                    Best thing since sliced bread! Found people to bring new energy in my life and to accompany me on
+                    my business trips
+                </p >
+                <p class="text-[#C82151] text-[20px] px-[90px] pt-[20px]"> Thomas S. (San Francisco CA)</p>
+            </div>
+        </div>
+
+
+        <div class=" flex  lg:mx-[130px] md:mx-[30px] px-2 py-4 items-center  bg-white mb-[10px]">
+            <div class="flex items-center space-x-12  z-10 pl-[20px]">
+                <img src="./images/my_sugar_baby_tamara_w.jpg" alt="">
+            </div>
+            <div class=" items-center  z-10">
+                <p class="black text-[26px] px-[90px]">|
+                    | I've met Sugar Daddy all over the world, they expanded my life more than I can imagine. Thank you
+                    so much, My Sugar Daddy.
+                </p >
+                <p class="text-[#C82151] text-[20px] px-[90px] pt-[20px]"> Bella K. (New York City NY)</p>
+            </div>
+        </div>
+
+        <div class=" flex  lg:mx-[130px] md:mx-[30px] px-2 py-4 items-center  bg-white mb-[10px]">
+            <div class="flex items-center space-x-12  z-10 pl-[20px]">
+                <img src="./images/my_sugar_daddy_alek_s.jpg" alt="">
+            </div>
+            <div class=" items-center  z-10">
+                <p class="black text-[26px] px-[90px]">|
+                    | My Sugar Daddy allowed me to easily find dates to my award ceremony, won't have to attend events
+                    alone anymore.
+                </p >
+                <p class="text-[#C82151] text-[20px] px-[90px] pt-[20px]"> Alek S. (Washington DC)</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="bg-black pb-[40px]">
+    <div class=" lg:mx-[130px] md:mx-[30px] px-2 py-4  items-center">
+        <h2 class="text-white text-[27px] mb-4">WHY SHOULD YOU CHOOSE SUGARBA.BE</h2>
+        <hr class="border-t-2 border-white opacity-50 w-full mx-auto mb-4" />
+        <p class="text-white text-[23px]">My Sugar Daddy, is one of the fastest-growing sugar daddy websites worldwide
+            and the market leader in Europe, is now available in the United States. Here, you can find many people who
+            share the same interests as wherever and whenever it is most convenient for you, be it in your hometown or
+            on a business trip.</p>
+    </div>
+</section>
+
+
+<section class="bg-black pb-[40px] ">
+    <div class=" lg:mx-[130px] md:mx-[30px] px-2 py-4  items-center">
+        <h2 class="text-white text-[27px] mb-4">MY SUGAR DADDY STANDS FOR QUALITY</h2>
+        <hr class="border-t-2 border-white opacity-50 w-full mx-auto mb-4" />
+        <p class="text-white text-[23px]">My Sugar Daddy offers you the perfect environment for you to find people with
+            similar goals, expectations and tastes as you. Our support team works around the clock to guarantee our
+            community is safe from fake profiles and to make sure you have an enjoyable experience</p>
+    </div>
+</section>
+
+<section class="bg-black pb-[40px] ">
+    <div class="lg:mx-[130px] md:mx-[30px] px-2 py-4  items-center">
+        <h2 class="text-white text-[27px] mb-4">MY SUGAR DADDY SIMPLIFIES YOUR LIFE</h2>
+        <hr class="border-t-2 border-white opacity-50 w-full mx-auto mb-4" />
+        <p class="text-white text-[23px]">Unlike most dating websites, you don’t need a monthly membership to access our
+            site. Firstly, there are several free functions that can be used. Such as signing up, visiting profiles and
+            asking questions. Secondly, you can purchase credits to unlock someone or request someone to unlock you so
+            messages can be exchanged or even video chat!</p>
+    </div>
+</section>
+
+
+<section class="bg-black pb-[40px] h-[150px] overflow-y-auto">
+    <div class="lg:mx-[130px] md:mx-[30px] px-2 py-4  items-center">
+        <p class="text-white text-[21px] py-[10px]">My Sugar Daddy is the number 1 for successful people</p>
+        <p class="text-white text-[23px] pb-[10px]">Welcome to MySugarDaddy, the worldwide fastest-growing sugar daddy websites!
+            Here, sugar daddies and sugar babies from all US-states and several European countries can connect.</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">How does MySugarDaddy work?</p>
+        <p class="text-white text-[23px] pb-[10px]">Our sugar dating platform is simple, intuitive and easy to use. It will take you less than 5 minutes to
+            create an account. First, check the box that corresponds to your role in a sugar relationship. If you are
+            a male, it means you will be the sugar daddyif you are a female, SUGAR BABE.</p>
+        <p class="text-white text-[23px] pb-[10px]">Then, choose between signing up with Facebook (we will never post anything in
+            your timeline!) or your email address. If you choose the latter, you will need to create a safe password,
+            an original username and inform your location and date of birth.</p>
+        <p class="text-white text-[23px] pb-[10px]">After completing these two steps, you will be sent a confirmation e-mail.
+            Please make sure to check your spam folder in case you do not hear from us within 30 minutes. The
+            confirmation link will take you back to our dating website, where you can complete your profile.</p>
+        <p class="text-white text-[23px] pb-[10px]">The more effort you put into creating a representative, interesting profile,
+            the more likely you are to find a suitable sugar daddy or sugar baby. There, you’ll be asked about your
+            profession, hobbies and, most importantly, what you expect from a sugar relationship. Be sure to be real
+            about your answers and to write a friendly welcome message that makes your intentions and expectations clear
+            so that you do not have to waste time with people who are not compatible with you.</p>
+        <p class="text-white text-[23px] pb-[10px]">Once your welcome message and profile photo (or photos) are approved by our
+            verification team – which is there to make sure our sugar dating website is free from fake profiles, scammers
+            and sex workers –, you are ready to go and the images you uploaded will be visible on your profile. You will
+            be able to browse profiles, send kisses and ask users questions FOR FREE!</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">Is MySugarDaddy free?></p>
+        <p class="text-white text-[23px] pb-[10px]">Registration, which we described above, is free, as well as most functions.
+            Here is what you can do for free on our sugar daddy websites</p>
+        <p class="text-white text-[23px] pb-[10px]">browse profiles and see profile pictures. However, users can create private
+            albums with additional pictures only visible to VIP members,,</p>
+        <p class="text-white text-[23px] pb-[10px]">send kisses — this a great way to signal your interest to another user,</p>
+        <p class="text-white text-[23px] pb-[10px]">ask a user to unblock you for chatting with them,</p>
+        <p class="text-white text-[23px] pb-[10px]">get to know people better by asking them questions from a list!</p>
+        <p class="text-white text-[23px] pb-[10px]">and much more!</p>
+        <p class="text-white text-[23px] pb-[10px]">In order to start a chat with someone, one of you has to unblock the other. To do
+            so, one of you has to have bought credits or be a VIP member. Since June 2020 it is possible to not only exchange
+            messages and photos, but also have video calls with them!</p>
+        <p class="text-white text-[23px] pb-[10px]">The_advantage.</p>
+        <p class="text-white text-[23px] pb-[10px]">What is a sugar daddy?</p>
+        <p class="text-white text-[23px] pb-[10px]">A sugar daddy (SD)is a successful man who is engaged or interested in a mutually
+            beneficial relationship with a usually much younger woman. He is willing and happy to grant her every wish,
+            mentor her and treat her like a princess on every date and interaction in exchange for her company and attention.
+        </p>
+        <p class="text-white text-[23px] pb-[10px]">Most sugar daddies are businessmen who are too busy working to pursuit and maintain
+            a romantic relationship. Nevertheless, they feel lonely in their free time and wish for company at business lunches,
+            fundraisers, gala dinners, business trips and vacations. Therefore, having someone they can always count on to
+            accompany them, such as a sugar baby, is a logical thing, as sugar relationships are much more simple and
+            straightforward than traditional ones.</p>
+        <p class="text-white text-[23px] pb-[10px]">who can be a sugar daddy?</p>
+        <p class="text-white text-[23px] pb-[10px]">Any man above 18 years of age who has enough money to provide a woman with a
+            luxurious lifestyle in exchange for her company and the happiness she brings into his life can be a sugar
+            daddy. As it usually takes some time to build a career that would allow for that, sugar daddies tend to be
+            significantly older than their sugar babies. However, this is not a must.</p>
+        <p class="text-white text-[23px] pb-[10px]">What is a sugar baby?</p>
+        <p class="text-white text-[23px] pb-[10px]">A sugar baby (SB) is a woman willing to or engaged in a relationship that is based
+            in an exchange. She offers attention and company and he, money, mentoring and gifts. Most sugar babies are college
+            students looking for financial support and someone who can offer them stability, mentoring and the possibility to
+            travel the world for free</p>
+        <p class="text-white text-[23px] pb-[10px]">Who can become a sugar baby?</p>
+        <p class="text-white text-[23px] pb-[10px]">Any woman above 18 years of age can become a sugar baby. Usually, an SB is much
+            younger than her sugar daddy. However, this does not mean that only girls in their 20s can become an SB. There
+            are sugar babies of every age.</p>
+        <p class="text-white text-[23px] pb-[10px]">To be a sugar baby, a woman must be self-confident, know her own value, have clear
+            boundaries and know how to present herself in a favorable way. As sugar daddies are rich, well-educated people,
+            it is important that an SB knows how to behave in highly formal social situations and in a sophisticated
+            atmosphere like that of five-stars restaurants. Being a good listener and having an interesting personality also
+            helps to make these interactions more pleasant for the sugar daddy.</p>
+        <p class="text-white text-[23px] pb-[10px]">Obviously, the appearance of an SB matters too. For this reason, it is important
+            that she pays close attention to her eating and exercise habits. Moreover, she should know how to do her make-up
+            and how to dress appropriately for every occasion.</p>
+        <p class="text-white text-[23px] pb-[10px]">To become a sugar baby is easy. All it takes is to sign up for our dating platform
+            by following the steps described above! To set up the perfect profile that will attract dozens of successful sugar
+            daddies, you should:</p>
+        <p class="text-white text-[23px] pb-[10px]">include pictures of you that show your face and body clearly. For this reason, do
+            not post group pics. The more pictures, the better. Make sure to have at least one portrait and another full-body
+            shot that shows your body shape clearly. Besides, these pictures should be recent and not photoshopped.</p>
+        <p class="text-white text-[23px] pb-[10px]">complete the profile and answer all questions sincerely.</p>
+        <p class="text-white text-[23px] pb-[10px]">create a welcome message that both sounds inviting and that makes potential
+            sugar daddies interested in knowing more about you and going on a date with you.</p>
+        <p class="text-white text-[23px] pb-[10px]">Then, you can either lay back and wait for the sugar daddies to come to you or
+            send kisses and questions to sugar daddies whose profile you liked or who showed interest by visiting your
+            profile.</p>
+        <p class="text-white text-[23px] pb-[10px]">You can find a sugar daddy absolutely for free by using our dating site and sending
+            them requests to unlock you so that you can chat over text and video without having to leave or site or give them
+            any private information like phone number, email address or full name.</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">What is a sugar relationship?</p>
+        <p class="text-white text-[23px] pb-[10px]">A sugar relationship (SR) is a relationship between a sugar daddy and a sugar baby.
+            It is based on a mutually beneficial give and take. In it, the sugar daddy offers financial support, mentoring
+            and gifts while the sugar baby offers her presence. It can, but must not, involve feelingsand intimacy.</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">What is sugaring?</p>
+        <p class="text-white text-[23px] pb-[10px]">Sugaring refers to the act of being in or looking for an SR. It is the same as sugar dating.</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">What is the sugar bowl?</p>
+        <p class="text-white text-[23px] pb-[10px]">Many sugar babies use the term sugar bowl to refer to the totality of people who
+            practice sugar dating; in other words, it is a general term for the totality of sugar daddies and sugar babies
+            out there.</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">What are the advantages of becoming a sugar daddy?</p>
+        <p class="text-white text-[23px] pb-[10px]">There are dozens of benefits to becoming an SD. Here are the top five:</p>
+        <p class="text-white text-[23px] pb-[10px]">You do not have to put lots of time and effort into keeping the relationship.
+            You can see each other whenever it is most convenient foryou.</p>
+        <p class="text-white text-[23px] pb-[10px]">A sugar relationship is not limited by any social constructs of how
+            relationships have to be or what it has to encompass. You and your SB can decide exactly how you want
+            it to be.</p>
+        <p class="text-white text-[23px] pb-[10px]">You will not feel lonely anymore. Whenever you wish for company on a dinner,
+            business trip, vacation, etc., you can simply invite your SB to join you.</p>
+        <p class="text-white text-[23px] pb-[10px]">You will feel younger. You can choose an SB who is younger than you to bring more youth and joy into your life
+            You will not have to waste your time and energy on fights. As sugar relationships can be ended at any moment, you do
+            not have to struggle to make it work. Whenever you notice it is not working for you anymore, you can inform your SB
+            that you would like to end things between the two of you.</p>
+        <p class="text-white text-[23px] font-bold pb-[10px]">What are the advantages of becoming a sugar baby?</p>
+        <p class="text-white text-[23px]">There are so many benefits to becoming an SB that we could spend hours talking
+            about it. To save you time, here go the most important ones:</p>
+        <p class="text-white text-[23px] pb-[10px]">Full control over the relationship: each sugar relationship is different because
+            each couple has their own agreement. Therefore, you can define your own terms, what you want and do not want to
+            do and exactly what you need and wish from your partner.</p>
+        <p class="text-white text-[23px] pb-[10px]">It will expand your horizons in every way, especially by traveling: you will drive
+            and fly to cities you had never imagined, experience new cultures andcuisines.</p>
+        <p class="text-white text-[23px] pb-[10px]">Free mentorship: as sugar daddies tend to be experienced businessmen, you could
+            learn a lot from them. Many sugar babies get their first job or financial support for implementing their own
+            business ideas from their partners.</p>
+        <p class="text-white text-[23px] pb-[10px]">Networking: you might get to know many of his business partners and influential
+            people while accompanying him to business events and trips. We all know that networking is the key to professional
+            growth and success.</p>
+        <p class="text-white text-[23px] pb-[10px]">Participating in exclusive events there are all kinds of events besides work-related
+            ones you can accompany him to, such as gala dinners, fundraisers, awards ceremonies, etc. How else would you be
+            introduced to high society?</p>
+        <p class="text-white text-[23px] pb-[10px]">New wardrobe: this can be a natural consequence of going to exclusive events often,
+            since every event requires a new dress, right? Besides, sugar daddies are generous men who will be happy to
+            shower you with gifts such as high heels, purses, lingerie, jewelry and clothes in general. Of the best brands,
+            of course.</p>
+        <p class="text-white text-[23px] pb-[10px]">Being treated like a lady: all the time you spend with your SD, you will
+            experience the joy of being treated like a lady and having a gentleman on your side.</p>
+        <p class="text-white text-[23px] pb-[10px]">Why should I sign up for MySugarDaddy?</p>
+        <p class="text-white text-[23px] pb-[10px]">The main reasons why you should join the MySugarDaddy community the transparency
+            and quality of the service we provide as well as our concern for your privacy. Here, youwill be sure to find the
+            right person from you. You will be able to pick from thousands upon thousands of real profiles, using our search
+            function to search by location, distance range, age range, hobbies, preferences and much more.</p>
+        <p class="text-white text-[23px] pb-[10px]">We have a verification system in place to filter out fake profiles, scammers, sex
+            workers and vulgar images. This way, we make sure our sugar daddy websites stays classy, safe and with only real
+            profiles of real people</p>
+        <p class="text-white text-[23px] pb-[10px]">We also have a support team that is there for you around the clock to solve any
+            problem you might be having as soon as possible! You can easily reach us by sending us a brief e-mail describing
+            your problem.</p>
+        <p class="text-white text-[23px] pb-[10px]">Our services are very transparent too. We state very clearly which functions are
+            not free and how much they cost. You can either buy credits or a membership to use them.</p>
+        <p class="text-white text-[23px] pb-[10px]">And last but not least:we now have an app!.Our sugar dating app for Android has
+            been launched at the beginning of 2020 and our app for iOS will be launched soon too! With our dating app, you
+            have the same functions of our dating site in a version for your smartphone that is just as easy to navigate!</p>
+        <p class="text-white text-[23px] pb-[10px]">So do not waste your time, sign up for MySugarDaddy today and find the perfect
+            sugar daddy or sugar baby for you in no time! Thousands of people from around the US and many other South
+            American and European countries are looking forward to meeting you!</p>
+    </div>
+</section>
+
+<section class="bg-black  py-[25px] lg:px-[110px] md:px-[30px]">
+<hr class="border-t-2 border-white opacity-50 w-full mx-auto mb-4" />
+</section>
+
+<footer class="bg-black ">
+
+
+    <div class=" flex  lg:px-[120px] md:px-[30px] py-[30px] justify-between">
+
+        <div class="">
+            <h3 class="text-white text-[24px]">Legal Information</h3>
+            <ul class="block leading-[40px] py-[20px]">
+                <li><a href="#" class="text-white text-[18px]"> Terms And Conditions</a></li>
+                <li><a href="#" class="text-white text-[18px]"> Cancellation Policy</a></li>
+                <li><a href="#" class="text-white text-[18px]"> Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="">
+            <h3 class="text-white text-[24px]">Cummunity</h3>
+            <ul class="block leading-[40px] py-[20px]">
+                <li><a href="#" class="text-white text-[18px]"> Help</a></li>
+                <li><a href="#" class="text-white text-[18px]"> How it Works</a></li>
+                <li><a href="#" class="text-white text-[18px]"> Questions</a></li>
+            </ul>
+        </div>
+
+        <div class="">
+            <h3 class="text-white text-[24px]">Company</h3>
+            <ul class="block leading-[40px] py-[20px]">
+                <li><a href="#" class="text-white text-[18px]"> Imprint</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div class="justify-center flex">
+        <p class="text-[grey] text-[25px]">&copy; 2024SUGARBA.BE</p>
+    </div>
+</footer>
+
+<script>
+    function toggleDropdown() {
+        const dropdownMenu = document.getElementById('dropdownMenu');
+        dropdownMenu.classList.toggle('hidden');
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+        const dropdownMenu = document.getElementById('dropdownMenu');
+        if (!event.target.closest('.inline-block')) {
+            dropdownMenu.classList.add('hidden');
+        }
+    }
+</script>
+</body>
+</html>

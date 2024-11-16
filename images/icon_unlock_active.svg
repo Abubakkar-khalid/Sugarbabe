@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.902" height="22.011" viewBox="0 0 19.902 22.011">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Gruppe_780" data-name="Gruppe 780" transform="translate(1727.5 97.876)">
+    <path id="Pfad_2608" data-name="Pfad 2608" class="cls-1" d="M1300.9,91.457h14.7a2.1,2.1,0,0,1,2.1,2.1v7.351a2.1,2.1,0,0,1-2.1,2.1h-14.7a2.1,2.1,0,0,1-2.1-2.1V93.557a2.1,2.1,0,0,1,2.1-2.1Z" transform="translate(-3025.795 -179.373)"/>
+    <path id="Pfad_2609" data-name="Pfad 2609" class="cls-2" d="M1302.995,91.457v-4.2a5.251,5.251,0,0,1,10.4-1.05" transform="translate(-3025.795 -179.373)"/>
+  </g>
+</svg>

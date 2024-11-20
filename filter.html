@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selection Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-800 flex items-center justify-center min-h-screen">
+<div class="bg-gray-900 text-white w-80 p-4">
+    <!-- Reset Filter -->
+    <button class="bg-pink-600 w-full py-2 rounded-lg text-sm font-bold">Reset Filter</button>
+
+    <!-- Age Filter -->
+    <div class="mt-4">
+        <h2 class="text-sm font-semibold">Age</h2>
+        <input type="range" class="w-full mt-2" />
+    </div>
+
+    <!-- Results From -->
+    <div class="mt-4">
+        <h2 class="text-sm font-semibold">Results From</h2>
+        <div class="space-y-2 mt-2">
+            <div class="flex items-center">
+                <input type="checkbox" id="france" class="mr-2" />
+                <label for="france" class="text-sm">France</label>
+            </div>
+            <div class="flex items-center">
+                <input type="checkbox" id="europe" class="mr-2" />
+                <label for="europe" class="text-sm">Europe</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Distance to Center -->
+    <div class="mt-4">
+        <h2 class="text-sm font-semibold">Distance to Center</h2>
+        <input type="range" class="w-full mt-2" />
+    </div>
+
+    <!-- VIP Banner -->
+    <div class="bg-blue-500 mt-6 p-4 rounded-lg text-center">
+        <h3 class="font-semibold text-lg">YOU WANT MORE?</h3>
+        <p class="text-sm mt-2">
+            Unlock more filters and find your perfect match with our premium features.
+        </p>
+        <button class="bg-white text-blue-500 font-bold py-2 px-4 rounded-lg mt-4">Become a VIP Now</button>
+    </div>
+
+    <!-- Additional Filters -->
+    <div class="mt-6">
+        <!-- Language -->
+        <div class="mt-4">
+            <h2 class="text-sm font-semibold">Language</h2>
+            <div class="space-y-2 mt-2">
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye1" class="mr-2" />
+                    <label for="eye1" class="text-sm">all</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">German</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">Only members with photos</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only verifed members</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only vip members</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eye Color -->
+        <div class="mt-4">
+            <h2 class="text-sm font-semibold">Eye Color</h2>
+            <div class="space-y-2 mt-2">
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye1" class="mr-2" />
+                    <label for="eye1" class="text-sm">all</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">German</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">Only members with photos</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only verifed members</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only vip members</label>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- hair Color -->
+        <div class="mt-4">
+            <h2 class="text-sm font-semibold">Hair Color</h2>
+            <div class="space-y-2 mt-2">
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye1" class="mr-2" />
+                    <label for="eye1" class="text-sm">all</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">German</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">Only members with photos</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only verifed members</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only vip members</label>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Children -->
+        <div class="mt-4">
+            <h2 class="text-sm font-semibold">Children</h2>
+            <div class="space-y-2 mt-2">
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye1" class="mr-2" />
+                    <label for="eye1" class="text-sm">all</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">German</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">Only members with photos</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only verifed members</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only vip members</label>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Smoker -->
+        <div class="mt-4">
+            <h2 class="text-sm font-semibold">Smoker</h2>
+            <div class="space-y-2 mt-2">
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye1" class="mr-2" />
+                    <label for="eye1" class="text-sm">all</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">German</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">Only members with photos</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only verifed members</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only vip members</label>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Ethnicity -->
+        <div class="mt-4">
+            <h2 class="text-sm font-semibold">Ethnicity</h2>
+            <div class="space-y-2 mt-2">
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye1" class="mr-2" />
+                    <label for="eye1" class="text-sm">all</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">German</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">Only members with photos</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only verifed members</label>
+                </div>
+                <div class="flex items-center">
+                    <input type="checkbox" id="eye2" class="mr-2" />
+                    <label for="eye2" class="text-sm">only vip members</label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,325 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Question</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9b28e090f9.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black">
+<header class="flex items-center justify-between w-full py-4 text-sm  lg:px-[40px]">
+    <div class=" flex items-center justify-center flex-shrink-0 text-white  bg-black lg:p-[20px] ">
+        <img src="./images/navbar%20img.svg" alt="navbar img" class="lg:pl-[25px]">
+    </div>
+
+    <div>
+        <h1 class="text-white md:hidden w-[30px] text-[20px]">&#9776</h1>
+    </div>
+
+    <div class=" md:flex items-center justify-between lg:gap-[49px] gap:[20px] hidden">
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_visitor_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="#" class="text-white text-center item-center">Visitor</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_chat_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="chat.html" class="text-white text-center item-center">Chat</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_kiss_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="kisses.html" class="text-white text-center item-center">Kisses</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_star_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="favourite.html" class="text-white text-center item-center">Favorites</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_question_circle_white.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="question.html" class="text-white text-center item-center">Questions</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_unlock_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="unlock.html" class="text-white text-center item-center">Unlock</a>
+        </div>
+
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_crown_blue.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="vip.html" class="text-white text-center item-center">Become VIP</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/icon_credits_green.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="credit.html" class="text-white text-center item-center">Credits</a>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./images/default_icon_male.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
+            <a href="profile.html" class="text-white text-center item-center">Profile</a>
+        </div>
+    </div>
+</header>
+
+<hr class="text-white px-[20px]">
+
+<main>
+
+    <div class="max-w-screen-lg mx-auto p-4 bg-gray-900 text-white space-y-6">
+        <!-- Profile Section -->
+        <div class="flex justify-center">
+            <p class="block text-sm font-bold mb-2">This is You</p>
+            <div class="flex flex-col md:flex-row lg:flex-col md:items-center space-y-4 md:space-y-0 md:space-x-4">
+                <div class="w-48 h-48 bg-gray-700 flex items-center justify-center mb-[20px]">
+                    <img src="./images/default_icon_male.svg" alt="Profile" class="w-full h-full object-cover rounded-full ">
+                </div>
+                <button class="bg-pink-600 hover:bg-pink-700 text-white py-2 px-4 rounded w-full md:w-auto">
+                    Upload Profile Picture
+                </button>
+                <button class=" text-white py-2 px-[70px] bg-slate-600 rounded w-full md:w-auto bg-colo ">
+                    Delete
+                </button>
+            </div>
+        </div>
+
+        <hr class="text-white px-[20px]">
+        <!-- Flirt Message Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Your Flirt Message</label>
+            <div class="w-[80%]">
+            <textarea
+                    class="w-full bg-gray-800 text-white p-3 rounded resize-none mb-[20px]"
+                    rows="4"
+                    placeholder="Enter your flirt message here..."
+            ></textarea>
+            <button class=" text-white item-center bg-pink-600 py-2 px-[200px]   rounded w-full md:w-auto ">
+                Save
+            </button>
+            </div>
+        </div>
+
+        <hr class="text-white px-[20px]">
+
+
+
+
+        <!-- Your Album Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Your Album</label>
+            <div>
+                <p class="text-white mb-[20px]">All member can see your photos</p>
+                <button class=" text-white item-center bg-pink-600 py-2 px-[200px] mb-[20px]  rounded w-full md:w-auto ">
+                    Upload
+                </button>
+                <input type="file" class="w-full bg-gray-800 text-gray-400 p-2 rounded">
+            </div>
+        </div>
+
+        <hr class="text-white px-[20px]">
+
+
+        <!-- Your Video Album Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Your VIP Album</label>
+            <div>
+                <p class="text-white mb-[20px]">Only VIP members can see your photos</p>
+                <button class=" text-white item-center bg-pink-600 py-2 px-[200px] mb-[20px]  rounded w-full md:w-auto ">
+                    Upload
+                </button>
+                <input type="file" class="w-full bg-gray-800 text-gray-400 p-2 rounded">
+            </div>
+        </div>
+
+        <hr class="text-white px-[20px]">
+
+        <!-- Where Are You From Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Where Are You From</label>
+            <select class="w-[80%] bg-gray-800 text-white p-3 rounded">
+                <option value="">Select a location</option>
+                <option value="location1">Location 1</option>
+                <option value="location2">Location 2</option>
+                <option value="location3">Location 3</option>
+            </select>
+        </div>
+
+        <hr class="text-white px-[20px]">
+
+
+        <div class="max-w-screen-lg mx-auto p-4 bg-gray-900 text-white space-y-6">
+            <!-- Who Are You Section -->
+            <div class="">
+                <h2 class="text-xl font-bold mb-4">Who Are You?</h2>
+                <div class="space-y-4">
+                    <!-- Date of Birth -->
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Date of Birth</label>
+                        <input
+                                type="date"
+                                class="w-full bg-gray-800 text-white p-2 rounded"
+                                placeholder="01/01/2006"
+                        />
+                    </div>
+
+                    <!-- Dropdown Fields -->
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Height</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>Short</option>
+                            <option>Average</option>
+                            <option>Tall</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Smoker</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Children</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>None</option>
+                            <option>1</option>
+                            <option>2+</option>
+                        </select>
+                    </div>
+
+                    <!-- Repeat for other fields -->
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Body Shape</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>Slim</option>
+                            <option>Average</option>
+                            <option>Athletic</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Eye Color</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>Brown</option>
+                            <option>Blue</option>
+                            <option>Green</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Hair Color</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>Black</option>
+                            <option>Brown</option>
+                            <option>Blonde</option>
+                        </select>
+                    </div>
+
+                    <!-- Add more dropdowns as needed -->
+                    <div>
+                        <label class="block text-sm font-bold mb-1">Languages</label>
+                        <select class="w-full bg-gray-800 text-white p-2 rounded">
+                            <option>No Information</option>
+                            <option>English</option>
+                            <option>Spanish</option>
+                            <option>French</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="text-white px-[20px]">
+
+        <!-- What Are You Looking For Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">What are you looking for</label>
+            <select class="w-[80%] bg-gray-800 text-white p-3 rounded">
+                <option value="">No Information</option>
+                <option value="location1">Location 1</option>
+
+            </select>
+        </div>
+
+
+        <hr class="text-white px-[20px]">
+        <!-- Add a User Question Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Your Question</label>
+            <button class="bg-pink-600 hover:bg-pink-700 text-white py-2 px-4 rounded w-full md:w-auto">
+                Add a User Question
+            </button>
+        </div>
+
+        <hr class="text-white px-[20px]">
+
+        <!-- Phone Verification Section -->
+        <div class="w-full max-w-md space-y-6">
+            <div class="space-y-2">
+                <h1 class="text-lg font-medium tracking-wide">ARE YOU REAL?</h1>
+                <p class="text-sm text-red-500">We will send you a 6-digit code via SMS.</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="flex gap-2">
+                    <input type="text" value="+91" readonly class="w-20 bg-zinc-900 border border-zinc-800 text-white h-10 px-3 rounded-md">
+                    <input type="tel" placeholder="Phone number" class="flex-1 bg-zinc-900 border border-zinc-800 text-white h-10 px-3 rounded-md">
+                </div>
+
+                <button class="w-full bg-pink-600 hover:bg-red-800 text-white h-10 rounded-md transition duration-300">
+                    REQUEST CODE
+                </button>
+            </div>
+
+            <div class="space-y-4">
+                <label class="text-sm text-zinc-400">Verification code</label>
+                <div class="flex gap-2">
+                    <input type="text" maxlength="1" class="w-12 h-12 text-center bg-zinc-900 border border-zinc-800 text-white rounded-md">
+                    <input type="text" maxlength="1" class="w-12 h-12 text-center bg-zinc-900 border border-zinc-800 text-white rounded-md">
+                    <input type="text" maxlength="1" class="w-12 h-12 text-center bg-zinc-900 border border-zinc-800 text-white rounded-md">
+                    <input type="text" maxlength="1" class="w-12 h-12 text-center bg-zinc-900 border border-zinc-800 text-white rounded-md">
+                </div>
+
+                <button class="w-full bg-pink-600 hover:bg-red-800 text-white h-10 rounded-md transition duration-300">
+                    VERIFY
+                </button>
+            </div>
+        </div>
+
+        <hr class="text-white px-[20px]">
+        <!-- Reality Check Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Reality Check</label>
+            <button class="bg-pink-600 hover:bg-pink-700 text-white py-2 px-4 rounded w-full md:w-auto">
+                Verify Profile
+            </button>
+        </div>
+
+        <hr class="text-white px-[20px]"></hr>
+        <!-- Is Check Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Is Check</label>
+            <div class="">
+                <p>How does the ID check now</p>
+            <input type="file" class="w-full bg-gray-800 text-gray-400 p-2 rounded">
+            </div>
+        </div>
+
+        <hr class="text-white px-[20px]"></hr>
+        <!-- Preview Section -->
+        <div class="flex justify-between">
+            <label class="block text-sm font-bold mb-2">Preview</label>
+            <button class="bg-pink-600 hover:bg-pink-700 text-white py-3 rounded w-[70%]">
+                Show Demo Profile
+            </button>
+        </div>
+    </div>
+
+
+</main>
+</body>
+</html>

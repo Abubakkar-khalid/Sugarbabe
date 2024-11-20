@@ -5,56 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Select a Question</title>
   <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9b28e090f9.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-black">
-    <header class="flex items-center justify-between w-full py-4 text-sm px-[20px] px-[40px]">
-      <div class=" flex items-center flex-shrink-0 text-white  bg-black p-[20px]">
-        <img src="./images/navbar%20img.svg" alt="navbar img" class="pl-[25px]">
+    <header class="flex items-center justify-between w-full py-4 text-sm  lg:px-[40px]">
+      <div class=" flex items-center justify-center flex-shrink-0 text-white  bg-black lg:p-[20px] ">
+        <img src="./images/navbar%20img.svg" alt="navbar img" class="lg:pl-[25px]">
       </div>
-      <div class="flex items-center justify-between gap-[30px]">
-          <div class="flex flex-wrap items-center justify-center">
+
+        <div>
+            <h1 class="text-white md:hidden w-[30px] text-[20px]">&#9776</h1>
+        </div>
+
+      <div class=" md:flex items-center justify-between lg:gap-[49px] gap:[20px] hidden">
+          <div class="flex flex-col items-center justify-center">
             <img src="./images/icon_visitor_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Visitor</p>
+              <a href="visitor.html" class="text-white text-center item-center">Visitor</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_chat_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Chat</p>
+              <a href="chat.html" class="text-white text-center item-center">Chat</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_kiss_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Kisses</p>
+              <a href="kisses.html" class="text-white text-center item-center">Kisses</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_star_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Favorites</p>
+              <a href="favourite.html" class="text-white text-center item-center">Favorites</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_question_circle_white.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Questions</p>
+              <a href="question.html" class="text-white text-center item-center">Questions</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_unlock_active.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Unlock</p>
+              <a href="unlock.html" class="text-white text-center item-center">Unlock</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
-              <img src="./images/icon_header_events.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Events</p>
-          </div>
-          <div class="flex flex-wrap items-center justify-center">
-              <img src="./images/icon_diamond_header.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Diamond</p>
-          </div>
-          <div class="flex flex-wrap items-center justify-center">
+
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_crown_blue.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Become VIP</p>
+              <a href="vip.html" class="text-white text-center item-center">Become VIP</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/icon_credits_green.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Credits</p>
+              <a href="credit.html" class="text-white text-center item-center">Credits</a>
           </div>
-          <div class="flex flex-wrap items-center justify-center">
+          <div class="flex flex-col items-center justify-center">
               <img src="./images/default_icon_male.svg" alt="icon visitor_active" class="w-6 h-6 rounded-full">
-              <p class="text-white text-center item-center">Profile</p>
+              <a href="profile.html" class="text-white text-center item-center">Profile</a>
           </div>
       </div>
     </header>
@@ -62,16 +61,43 @@
     <hr class="text-white px-[20px]">
 
 <main>
-    <section class="flex items-center justify-between gap-[30px] py-[20px] px-[1000x]">
-        <div class="flex flex-wrap items-center justify-center gap-[30px] grid grid-cols-4 w-[75%] pl-[100px]">
+
+    <section class="lg:px-[150px] md:px-[10px]">
+        <div class="md:flex  justify-between  item-center pl-[100px] pr-[50px] py-[20px]  md:gap-[10px]  ">
+            <div class="flex  items-center justify-center">
+                <p class="text-white lg:text-[30px] text-[20px]">AGE </p>
+                <img src="./images/sort.svg" class="lg:w-8 lg:h-8 w-6 h-6 rounded-full">
+            </div>
+
+            <div class="flex  items-center justify-center">
+                <p class="text-white lg:text-[30px] text-[20px]">Distance </p>
+                <img src="./images/sort.svg" class="lg:w-8 lg:h-8 w-6 h-6 rounded-full">
+            </div>
+
+            <div class="flex  items-center justify-center">
+                <p class="text-white lg:text-[30px] text-[20px]">Last Online</Online> </p>
+                <img src="./images/sort.svg" class="lg:w-8 lg:h-8 w-6 h-6 rounded-full">
+            </div>
+
+            <div class="flex  items-center justify-between border bg-gray-700">
+                <a href="filter.html" class="text-white lg:text-[30px] text-[20px] justify-center item-center flex lg:pl-[20px] lg:pr-[70px]">Filter </a>
+                <i class="fa-solid fa-magnifying-glass text-white px-[20px] lg:w-12"></i>
+            </div>
 
 
+            <div class="flex  items-center justify-between border ">
+                <a href="select_language.html" class="text-white lg:text-[30px] text-[20px] lg:pl-[20px] lg:pr-[70px]">English </a>
+            </div>
+    </section>
 
-            <div class="max-w-sm bg-grey border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <section class="flex items-center justify-between gap-[30px] py-[20px]">
+        <div class="flex flex-wrap items-center justify-center gap-[30px] grid md:grid-cols-2 lg:grid-cols-4 w-[100%] pl-[100px] pr-[50px]">
+
+            <div class="max-w-sm bg-grey border border-slate-800 rounded-lg shadow dark:bg-gray-800 ">
                 <a href="#">
-                    <img class="rounded-t-lg" src="./images/default_icon_female.svg" alt="" />
+                    <img class="rounded-t-lg " src="./images/default_icon_female.svg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="p-5 bg-slate-900">
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Shelley Alex</h5>
                     </a>
@@ -85,11 +111,11 @@
                 </div>
             </div>
 
-            <div class="max-w-sm bg-grey border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm bg-grey border border-slate-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="./images/default_icon_female.svg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="p-5 bg-slate-900">
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Shelley Alex</h5>
                     </a>
@@ -103,11 +129,11 @@
                 </div>
             </div>
 
-            <div class="max-w-sm bg-grey border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm bg-grey border border-slate-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="./images/default_icon_female.svg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="p-5 bg-slate-900">
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Shelley Alex</h5>
                     </a>
@@ -121,11 +147,11 @@
                 </div>
             </div>
 
-            <div class="max-w-sm bg-grey border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm bg-grey border border-slate-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="./images/default_icon_female.svg" alt="" />
                 </a>
-                <div class="p-5">
+                <div class="p-5 bg-slate-900">
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Shelley Alex</h5>
                     </a>
@@ -138,13 +164,11 @@
                     </div>
                 </div>
             </div>
-
-
-        </div>
-        <div class="flex flex-wrap items-center justify-center gap-[30px] w-[25%]">
 
         </div>
     </section>
+
+
 </main>
 </body>
 </html>
